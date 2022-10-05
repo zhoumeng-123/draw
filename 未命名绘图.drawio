@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-05T07:20:33.678Z" agent="5.0 (Windows)" etag="H_einzkUnKiKhbOGmhZ4" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-05T08:58:47.837Z" agent="5.0 (Windows)" etag="EMfASWuumEk7EIl50amP" version="20.3.2" type="github">
   <diagram id="JKJWpMdvQNC9LhGvfFmc" name="第 1 页">
     <mxGraphModel dx="1185" dy="-1711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,66 +8,47 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-2" value="启动服务&lt;font face=&quot;Verdana&quot;&gt;startTopo.service&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="146" y="2582" width="140" height="38" as="geometry" />
+          <mxGeometry x="146" y="2567" width="140" height="38" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="AHmBcfAO9iQUcCrBusLg-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="216" y="2557" as="sourcePoint" />
+            <mxPoint x="216" y="2542" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-6" value="网络拓扑更新模块" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=11;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="160.91000000000003" y="2505" width="111.64" height="53" as="geometry" />
+          <mxGeometry x="160.91000000000003" y="2490" width="111.64" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AHmBcfAO9iQUcCrBusLg-8" target="AHmBcfAO9iQUcCrBusLg-21">
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="AHmBcfAO9iQUcCrBusLg-8" target="AHmBcfAO9iQUcCrBusLg-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-8" value="&#39;bash run_edge_only.sh&#39; + ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="40.75" y="2923" width="163.5" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="AHmBcfAO9iQUcCrBusLg-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="204.5" y="2868" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="AHmBcfAO9iQUcCrBusLg-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="204.5" y="2868" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="AHmBcfAO9iQUcCrBusLg-17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="204.5" y="2868" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-8" value="&lt;font face=&quot;Verdana&quot;&gt;载入json文件读取上次更新后的网桥节点与端口&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="331.5" y="2740" width="163.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-12" value="&lt;font face=&quot;Verdana&quot;&gt;自动执行 topo.sh&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="139.5" y="2654" width="153" height="46" as="geometry" />
+          <mxGeometry x="139.5" y="2639" width="153" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-13" value="&lt;font face=&quot;Verdana&quot;&gt;systemctl startTopo.service&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="2624" width="190" height="30" as="geometry" />
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-13" value="&lt;font face=&quot;Verdana&quot;&gt;命令：systemctl startTopo.service&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="2571" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-14" value="socket.send_pyobj(info_to_edge)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="170.95999999999998" y="3118" width="197.52" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AHmBcfAO9iQUcCrBusLg-16" target="AHmBcfAO9iQUcCrBusLg-21">
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="AHmBcfAO9iQUcCrBusLg-17" target="AHmBcfAO9iQUcCrBusLg-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-16" value="&#39;bash run_synergy.sh&#39; + ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="187.98" y="2961" width="163.5" height="31" as="geometry" />
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-17" value="init(), init_port()，初始化操作，删除更新后不再存在的网桥与之前的端口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="100.72999999999999" y="2814" width="230.77" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-17" value="&#39;bash run_device_only.sh&#39; + ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="291.98" y="2923" width="180.52" height="31" as="geometry" />
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-18" value="&lt;font face=&quot;Verdana&quot;&gt;LastTime_br.json，&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312.59000000000003" y="3012" width="280" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-18" value="DNN_LIST" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="279.48" y="3015" width="78" height="28" as="geometry" />
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-19" value="&lt;font face=&quot;Verdana&quot;&gt;json文件路径位于config.py&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="88.44" y="2706" width="191.04" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-19" value="port: 5050" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="535" y="3020" width="78" height="28" as="geometry" />
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AHmBcfAO9iQUcCrBusLg-21" target="AHmBcfAO9iQUcCrBusLg-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269.72" y="3118" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AHmBcfAO9iQUcCrBusLg-21" target="AHmBcfAO9iQUcCrBusLg-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-21" value="推理，记录num_correct 等" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="214.98000000000002" y="3057" width="109.5" height="38" as="geometry" />
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-21" value="同时记录当前节点与端口，写入json文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="359" y="2972" width="151" height="38" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AHmBcfAO9iQUcCrBusLg-25" target="AHmBcfAO9iQUcCrBusLg-27">
           <mxGeometry relative="1" as="geometry" />
@@ -79,48 +60,87 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-25" value="提前启动用于DNN计算的容器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="603" y="2605" width="121.5" height="41" as="geometry" />
+          <mxGeometry x="888" y="2513.5" width="121.5" height="41" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-26" value="&lt;div&gt;PORT_LIST = [[&#39;5100&#39;,&#39;5110&#39;]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;‘5100’端口用于接收app的任务请求（options）&lt;/div&gt;&lt;div&gt;‘5110&#39;用于和终端交互&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="761" y="2601" width="285.25" height="58" as="geometry" />
+          <mxGeometry x="1046" y="2509.5" width="285.25" height="58" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-27" value="run_edge_only.sh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="535" y="2688" width="110" height="31" as="geometry" />
+          <mxGeometry x="820" y="2596.5" width="110" height="31" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-28" value="run_edge_infer.sh" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="696.75" y="2690" width="110" height="31" as="geometry" />
+          <mxGeometry x="981.75" y="2598.5" width="110" height="31" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AHmBcfAO9iQUcCrBusLg-30" target="AHmBcfAO9iQUcCrBusLg-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-30" value="启动后端容器,运行app.py" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="613.62" y="2782" width="100.25" height="38" as="geometry" />
+          <mxGeometry x="898.62" y="2690.5" width="100.25" height="38" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-31" value="Online-Test" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="729.5" y="2877" width="74" height="27" as="geometry" />
+          <mxGeometry x="1014.5" y="2785.5" width="74" height="27" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-32" value="&lt;div&gt;ALLOWED_MODE =&lt;/div&gt;&lt;div&gt;&amp;nbsp;[&#39;Edge-Only&#39;, &#39;Device-only&#39;, &#39;Synergy&#39;, &#39;Online-Test&#39;]&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="695" y="2734" width="295.5" height="52" as="geometry" />
+          <mxGeometry x="980" y="2642.5" width="295.5" height="52" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-33" value="socket = context.socket(zmq.REP)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="676.5" y="2832" width="194" height="18" as="geometry" />
+          <mxGeometry x="961.5" y="2740.5" width="194" height="18" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-34" value="Classifier()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="620.75" y="2868" width="87.5" height="38" as="geometry" />
+          <mxGeometry x="905.75" y="2776.5" width="87.5" height="38" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-35" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.bendArrow;dy=4.05;dx=19.24;notch=0;arrowHead=21.95;rounded=1;rotation=-90;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="568" y="2755" width="43" height="35.11" as="geometry" />
+          <mxGeometry x="853" y="2663.5" width="43" height="35.11" as="geometry" />
         </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-36" value="mode_opt = request.form.get(&quot;mode_opt&quot;)" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="727" y="2786" width="244" height="28" as="geometry" />
+          <mxGeometry x="1012" y="2694.5" width="244" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="AHmBcfAO9iQUcCrBusLg-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" target="AHmBcfAO9iQUcCrBusLg-38" parent="1" source="AHmBcfAO9iQUcCrBusLg-12">
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="AHmBcfAO9iQUcCrBusLg-38" parent="1" source="AHmBcfAO9iQUcCrBusLg-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="215.48000000000002" y="2710.11" as="sourcePoint" />
+            <mxPoint x="215.48000000000002" y="2695.11" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AHmBcfAO9iQUcCrBusLg-38" target="AHmBcfAO9iQUcCrBusLg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AHmBcfAO9iQUcCrBusLg-38" value="&lt;font face=&quot;Verdana&quot;&gt;&amp;nbsp; 每2秒执行一次 topo.py&amp;nbsp; 脚本更新ovs拓扑&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="141.48" y="2727" width="150.5" height="66" as="geometry" />
+          <mxGeometry x="338" y="2629" width="150.5" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="AHmBcfAO9iQUcCrBusLg-40" target="AHmBcfAO9iQUcCrBusLg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-40" value="&lt;font face=&quot;Verdana&quot;&gt;载入nodes.json与edges.json读取当前的网桥节点与端口&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="120.86" y="2735" width="191.73" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-44" value="&lt;font face=&quot;Verdana&quot;&gt;即 bridge，port&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="368.48" y="2781" width="191.04" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="AHmBcfAO9iQUcCrBusLg-45" target="AHmBcfAO9iQUcCrBusLg-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-45" value="根据&lt;font face=&quot;Verdana&quot;&gt;nodes.json数据依次创建网桥&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="129.23" y="2877" width="173.53" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="1" source="AHmBcfAO9iQUcCrBusLg-47" target="AHmBcfAO9iQUcCrBusLg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-47" value="根据&lt;font face=&quot;Verdana&quot;&gt;edges.json数据依次创建相应端口与网桥连接&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="129.23" y="2970" width="173.53" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-49" value="设置bridge id，根据控制器ip设置连接controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2923" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-50" value="结束" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Verdana;size=16.25;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="396.38" y="3060" width="76.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-54" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fillColor=none;dashed=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="82.02" y="2706" width="457.98" height="394" as="geometry" />
+        </mxCell>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-55" value="&lt;font face=&quot;Verdana&quot;&gt;LastTime_port.json&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="302.76" y="3030" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AHmBcfAO9iQUcCrBusLg-57" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Verdana&quot;&gt;topo.py&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="550" y="2870" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
