@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T05:54:49.159Z" agent="5.0 (Windows)" etag="8Gl-ENCmwiWN23ge4iIS" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T05:55:30.362Z" agent="5.0 (Windows)" etag="X3vxwHnYM30YOKR--InW" version="20.3.2" type="github">
   <diagram id="JKJWpMdvQNC9LhGvfFmc" name="第 1 页">
     <mxGraphModel dx="2249" dy="-1586" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -608,6 +608,9 @@
         </mxCell>
         <mxCell id="l01xMsV2ZSzaxEEeBVPu-51" value="将推理结果写入相应路径下Json文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="84" y="4203" width="214.37" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="l01xMsV2ZSzaxEEeBVPu-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" edge="1" parent="1" source="l01xMsV2ZSzaxEEeBVPu-56" target="l01xMsV2ZSzaxEEeBVPu-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l01xMsV2ZSzaxEEeBVPu-56" value="检测到Json文件存在，读取结果，删除文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="335.5" y="4203" width="153" height="38" as="geometry" />
