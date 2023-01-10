@@ -1,1 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2023-01-10T05:47:43.250Z" agent="5.0 (Windows)" version="20.6.0" etag="Z0I4P04FjUr6HudXEIlR" type="github"><diagram id="V5iPGAhfWxupXDOm_JDa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-10T05:48:04.667Z" agent="5.0 (Windows)" version="20.6.0" etag="agyWGiqSsTHFZIysBfRJ" type="github">
+  <diagram id="mv4nk1A38Yp5HmkPocNp" name="第 1 页">
+    <mxGraphModel dx="995" dy="-2743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" edge="1" parent="1" source="dPrLqPhTyrWjlMOtwlhc-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="3428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-2" value="&lt;p align=&quot;justify&quot;&gt;&lt;span&gt;Future number of nuclear &lt;/span&gt;&lt;span&gt;weapons &lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; (for each &lt;/span&gt;&lt;span&gt;country)&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="628" y="3439" width="198" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dPrLqPhTyrWjlMOtwlhc-4" target="dPrLqPhTyrWjlMOtwlhc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-4" value="&lt;p&gt;&lt;span&gt;Predict the number of nuclear weapons&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="466.37" y="3370" width="224.5" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="dPrLqPhTyrWjlMOtwlhc-6" target="dPrLqPhTyrWjlMOtwlhc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-6" value="&lt;p&gt;&lt;span&gt;&amp;nbsp;Status classification and prediction&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379.99" y="3619" width="156.02" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-7" value="&lt;span&gt;Stockpiles&amp;nbsp; comparison and verification&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="756.5" y="3363" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-8" value="&lt;p&gt;&lt;span&gt;Establish &lt;/span&gt;&lt;span&gt;ARIMA time series model &lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="272" y="3353" width="132" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-9" value="&lt;span&gt;Grayscale prediction&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="411" y="3540" width="117" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPrLqPhTyrWjlMOtwlhc-11" target="dPrLqPhTyrWjlMOtwlhc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-11" value="&lt;span&gt;Multivariate Logistic regression&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="186.5" y="3534" width="106" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dPrLqPhTyrWjlMOtwlhc-14" target="dPrLqPhTyrWjlMOtwlhc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dPrLqPhTyrWjlMOtwlhc-14" target="dPrLqPhTyrWjlMOtwlhc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-14" value="&lt;span&gt;&amp;nbsp;Main influencing factors&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="410" y="3465" width="118" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-15" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span&gt;Predict&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="3510" width="65" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-16" value="&lt;span&gt;BP Neural Network&lt;/span&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="640" y="3529" width="115.5" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-17" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span&gt;Coupling&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="587.87" y="3612" width="66" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="3560.5" as="sourcePoint" />
+            <mxPoint x="619" y="3560.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="398" y="3573" as="sourcePoint" />
+            <mxPoint x="306" y="3573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-20" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412" y="3397" as="sourcePoint" />
+            <mxPoint x="463" y="3397" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="696.75" y="3526" as="sourcePoint" />
+            <mxPoint x="696.75" y="3493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-22" value="GDPc" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="516.87" y="3425" width="51.13" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-23" value="SPS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="551.87" y="3459" width="51.13" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-24" value="AME" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="453" y="3425" width="51.13" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-25" value="MPLF" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="545.87" y="3496" width="51.13" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-26" value="&lt;p align=&quot;justify&quot;&gt;&lt;span&gt;Future stockpiles&lt;/span&gt;&lt;span&gt; &lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="748" y="3496" width="100" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-27" value="&lt;p align=&quot;justify&quot;&gt;&lt;span&gt;Future status&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="545.37" y="3650" width="88.63" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="dPrLqPhTyrWjlMOtwlhc-28" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span&gt;Predict&lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625.5" y="3496" width="65" height="36" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
